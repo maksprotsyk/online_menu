@@ -1,0 +1,78 @@
+
+.page-start-container {
+    background-image: url('../src/main_background.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding-top:0px;
+}
+
+
+.text-button {
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    display:inline-block;
+}
+
+
+.text-main {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+  }
+
+
+.home-button {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    
+}
+
+.spaces{
+    width:50px;
+    height:auto;
+    display:inline-block;
+}
+
+
+.buttons-container {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    display:inline-block;
+}
+
+
+.menu-section-container {
+    text-align: center;
+}
+
+#horizontal-list li{
+    display: inline;
+    margin: 2%;
+    
+}
+
+#horizontal-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+.title_text {
+    position: absolute;
+    color: white; 
+    text-align: center;
+    font-size: 20px;
+}
+
