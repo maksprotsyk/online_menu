@@ -1,5 +1,5 @@
 
-.page-start-container {
+.page-start-section {
     background-image: url('../src/main_background.jpg');
     background-size: cover;
     width: 100vw;
@@ -52,26 +52,55 @@
 }
 
 
-.menu-section-container {
+
+.centered-text {
     text-align: center;
+    margin: 2%;
+    font-size: 20px;
+    margin-bottom: 2px;
 }
 
-#horizontal-list li{
+.horizontal-list li{
     display: inline;
     margin: 2%;
-    
 }
 
-#horizontal-list ul{
+.horizontal-list ul{
     list-style: none;
     display: flex;
     justify-content: center;
-  }
+}
+
+.horizontal-list img {
+    object-fit: cover;
+    width:250px;
+    height:250px;
+}
+
+.horizontal-list p {
+    text-align: center;
+}
 
 .title_text {
     position: absolute;
     color: white; 
     text-align: center;
     font-size: 20px;
+}
+
+hr {
+    width: 10%;
+    border: 2px solid;
+    color: black;
+}
+
+.solid-text-button {
+    color: white; 
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    display:inline-block;
 }
 
