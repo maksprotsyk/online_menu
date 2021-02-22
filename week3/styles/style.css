@@ -1,9 +1,22 @@
 
+body {
+    line-height: 1.5;
+    font-family: Roboto;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+
+
 header {
     background-image: url('../src/main_background.jpg');
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 10%;
 }
 
 .main-logo {
@@ -21,7 +34,7 @@ nav {
 
 nav a {
     display: inline-block;
-    color: white; 
+    color: white;
     text-align: center;
     padding: 0.5em 1em 0.5em 1em;
     margin-left: 1em;
@@ -37,13 +50,14 @@ nav a:hover {
 
 .welcome-text {
     display: inline-block;
-    color: white; 
+    color: white;
     text-align: center;
     padding: 0.5em 1em 0.5em 1em;
     font-size: 30px;
     border: 10px solid rgba(255, 255, 255, 0.5);
     margin-top: 15%;
     margin-left: 20%;
+    font-weight: bold;
 }
 
 .centered {
@@ -52,14 +66,14 @@ nav a:hover {
 
 
 .title-text {
-    margin: 2%;
-    font-size: 20px;
-    font-weight: lighter;
+    margin-top: 2%;
+    font-size: 15px;
 }
 
 
 .products-list li{
     display: inline-block;
+    font-size: 12px;
     margin: 2%;
 }
 
@@ -71,7 +85,7 @@ nav a:hover {
 }
 
 .products-list a {
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: black;
 }
@@ -81,7 +95,7 @@ nav a:hover {
 }
 
 hr {
-    width: 10%;
+    width: 6em;
     border: 2px solid;
     color: black;
 }
@@ -89,12 +103,16 @@ hr {
 .solid-button {
     color: white; 
     text-align: center;
-    padding: 30px;
+    padding: 25px;
     margin: 2%;
     font-size: 20px;
     text-decoration: none;
     background-color: black;
     display: inline-block;
+}
+
+.menu-hr {
+    width: 4em;
 }
 
 .menu-list {
@@ -111,7 +129,12 @@ hr {
 .menu li{
     display: block;
     margin-top: 2em;
-    max-width: 20em;
+    max-width: 25em;
+}
+
+.menu p {
+    font-size: small;
+    font-weight: 400;
 }
 
 .transfer-button {
@@ -133,20 +156,49 @@ hr {
 }
 
 
-
 .events-text {
     display: inline-block;
     vertical-align: top;
-    max-width: 20em;
+    max-width: 25em;
     text-align: left;
-    line-height: 1.6;
     margin-right: 10%;
+}
+
+.events-text p {
+    text-align: left;
+    font-size: small;
+    font-weight: 400;
+}
+
+.events-text hr {
+    display: inline-block;
+    align-self: left;
 }
 
 
 .events-photo {
-    max-width: 400px;
+    max-width: 500px;
     vertical-align: top;
     height: auto;
     display: inline-block;
+}
+
+.last-line {
+    width: 80%;
+}
+
+.company-name-text {
+    margin: 1%;
+    font-size: 15px;
+}
+
+.footer-small-text {
+    margin: 1%;
+    font-size: 12px;
+    font-weight: 500px;
+}
+
+.footer-small-text a {
+    text-decoration: none;
+    color: black;
 }
