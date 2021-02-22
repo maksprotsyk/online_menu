@@ -4,85 +4,80 @@ header {
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    display: inline-block
 }
 
 .main-logo {
     display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 2%;
 }
 
 nav {
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+nav a {
     display: inline-block;
-}
-
-.main-panel {
-    display: block;
-}
-
-
-.text-button {
     color: white; 
     text-align: center;
-    padding: 20px;
+    padding: 0.5em 1em 0.5em 1em;
+    margin-left: 1em;
     font-size: 20px;
     text-decoration: none;
-    border: 10px solid rgba(255, 255, 255, 0.5);
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+nav a:hover {
+    background-color: black;
 }
 
 
-.text-main {
-    position: absolute;
-    top: 60%;
-    left: 20%;
+.welcome-text {
+    display: inline-block;
     color: white; 
     text-align: center;
-    padding: 20px;
+    padding: 0.5em 1em 0.5em 1em;
     font-size: 30px;
     border: 10px solid rgba(255, 255, 255, 0.5);
-  }
+    margin-top: 15%;
+    margin-left: 20%;
+}
 
-
-
-.spaces{
-    width:50px;
-    height:auto;
-    display:inline-block;
+.centered {
+    text-align: center;
 }
 
 
-
-.centered-text {
-    text-align: center;
+.title-text {
     margin: 2%;
     font-size: 20px;
-    margin-bottom: 2px;
+    font-weight: lighter;
 }
 
-.horizontal-list li{
-    display: inline;
+
+.products-list li{
+    display: inline-block;
     margin: 2%;
 }
 
-.horizontal-list ul{
-    list-style: none;
-    justify-content: center;
-}
 
-.horizontal-list img {
+.products-list img {
     object-fit: cover;
     width:250px;
     height:250px;
 }
 
-.horizontal-list p {
+.products-list a {
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
-.title_text {
-    position: absolute;
-    color: white; 
-    text-align: center;
-    font-size: 20px;
+.products-list p {
+    font-weight: bold;
 }
 
 hr {
@@ -91,13 +86,67 @@ hr {
     color: black;
 }
 
-.solid-text-button {
+.solid-button {
     color: white; 
     text-align: center;
     padding: 30px;
+    margin: 2%;
     font-size: 20px;
     text-decoration: none;
     background-color: black;
-    display:inline-block;
+    display: inline-block;
 }
 
+.menu-list {
+    margin: 2%;
+}
+
+.menu-list li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10% 0 10%;
+}
+
+
+.menu li{
+    display: block;
+    margin-top: 2em;
+    max-width: 20em;
+}
+
+.transfer-button {
+    color: black; 
+    text-align: center;
+    padding: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+.transfer-button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+.events-text {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 20em;
+    text-align: left;
+    line-height: 1.6;
+    margin-right: 10%;
+}
+
+
+.events-photo {
+    max-width: 400px;
+    vertical-align: top;
+    height: auto;
+    display: inline-block;
+}
