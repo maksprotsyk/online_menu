@@ -1,0 +1,130 @@
+body {
+    line-height: 1.5;
+    font-family: Roboto;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+
+
+header {
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 10%;
+}
+
+.main-logo {
+    display: inline-block;
+    margin: 2%;
+}
+
+nav {
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 0.5em 1em 0.5em 1em;
+    margin-left: 1em;
+    font-size: 20px;
+    text-decoration: none;
+    border: 5px solid black;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.centered {
+    text-align: center;
+}
+
+.menu-buttons {
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+.solid-button {
+    color: white; 
+    text-align: center;
+    padding: 25px;
+    margin: 0% 4% 2% 2%;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    display: inline-block;
+    width:10em;
+}
+
+
+.main-text {
+    max-width: 25em;
+    text-align: left;
+    margin-right: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title-text {
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+hr {
+    width: 6em;
+    border: 2px solid;
+    color: black;
+}
+
+.menu-list {
+    margin: 2%;
+}
+
+.menu-list li{
+    display: block;
+}
+
+.menu p {
+    font-size: small;
+    text-align: center;
+    font-weight: 400;
+}
+
+.menu li{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    max-width: 25em;
+}
+
+.long-hr {
+    margin-top: 2%;
+    width: 90%;
+}
+
+.products-hr {
+    width: 15%;
+}
+
+.products-list li {
+    display: block;
+}
+
+.products-list li p {
+    display: inline-block;
+    max-width: 25em;
+    
+}
+
+.products-list li img {
+    display: inline-block;
+    width: 40%;
+}
