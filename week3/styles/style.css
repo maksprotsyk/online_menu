@@ -172,14 +172,23 @@ hr {
 .events-text hr {
     display: inline-block;
     align-self: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
-
 
 .events-photo {
     max-width: 500px;
     vertical-align: top;
     height: auto;
     display: inline-block;
+}
+
+.events-section img {
+    margin-top: 7em;
+}
+
+.events-section .transfer-button {
+    margin-top: 2em;
 }
 
 .last-line {
